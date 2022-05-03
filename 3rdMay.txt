@@ -1,0 +1,36 @@
+1.The difference b/w overriding and overloading
+-->When two or more methods in the same class have the same name but different parameters,
+it's called Overloading. When the method signature are the same in the superclass and the child class,
+it's called Overriding.
+2.if both the functions are static can we override?
+-->No, we cannot override static methods because method overriding is based on dynamic binding at 
+runtime and the static methods are bonded using static binding at compile time.
+3.The difference between final finally and finalize?
+-->final-final is the keyword and access modifier which is used to apply restrictions on
+a class, method or variable.
+finally-finally is the block in Java Exception Handling to execute the important code 
+whether the exception occurs or not.
+finalize-finalize is the method in Java which is used to perform clean up processing just 
+before object is garbage collected.
+4.what are maker interfaces?
+-->The marker interface pattern is a design pattern in computer science, used with languages
+that provide run-time type information about objects. It provides a
+means to associate metadata with a class where the language does not have explicit support for such metadata.
+5.what is singleton class?
+-->Singleton Pattern says that just"define a class that has only one
+instance and provides a global point of access to it".
+6.what is the underlying data structure for arraylist and linkedlist?
+-->Both ArrayList and LinkedList are two different implementations of the List interface. ArrayList is a 
+resizable-array implementation, whereas LinkedList is a Doubly-linked list implementation of the List interface.
+7.what is hash collision?
+-->A collision, or more specifically, a hash code collision in a HashMap, is a situation where two or more key 
+objects produce the same final hash value and hence point to the same bucket location or array index.
+8.what are lambda expressions?
+-->A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions 
+are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
+9.what is functional Interface?
+-->A functional interface is an interface that contains only one abstract method. They can have only one functionality to exhibit. From Java 8 onwards, lambda expressions can be used 
+to represent the instance of a functional interface. A functional interface can have any number of default methods.
+10.what are optional clases in java 8?
+-->Optional is a container object used to contain not-null objects. Optional object is used to represent null with absent value. This class has various utility methods to facilitate 
+code to handle values as 'available' or 'not available' instead of checking null values.
